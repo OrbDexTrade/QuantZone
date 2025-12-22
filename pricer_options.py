@@ -13,7 +13,6 @@ from scipy.stats import norm
 from strategy import BasePricer, RawFairPrice
 from utils.data_methods import PriceType, Side
 
-
 class OptionPricer(BasePricer):
     """
     A pricer for options contracts.
