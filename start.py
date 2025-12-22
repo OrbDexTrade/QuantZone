@@ -8,6 +8,7 @@ It also handles graceful shutdown and exception handling.
 This is the place where you can define the overrides for the strategy; 
 pricer and the risk modules.
 """
+
 import logging
 import structlog
 import argparse
