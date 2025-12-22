@@ -3,7 +3,6 @@ FROM continuumio/miniconda3:latest
 
 # Set environment variables to avoid interactive prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
-
 # Update system and install required packages
 RUN apt-get update && \
     apt-get install -y \
