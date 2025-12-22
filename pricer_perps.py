@@ -4,7 +4,6 @@ fair prices for perpetual futures contracts. It inherits from BasePricer and
 uses various market data and strategy parameters to determine appropriate
 pricing for buy and sell orders.
 """
-
 import structlog
 from decimal import Decimal as D
 from strategy import BasePricer, RawFairPrice
