@@ -3,7 +3,6 @@
 ### Introduction
 
 This algorithm implements a market making strategy for perpetual instruments on the OrbDex exchange. It listens to an external exchange (Binance) for spot prices and quotes around that value, with adjustments for:
-
 - Perpetual basis
 - Funding rate
 - Volatility
