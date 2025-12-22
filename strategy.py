@@ -1,6 +1,5 @@
 """
 This module implements a perpetual market making strategy.
-
 It provides classes and functions for pricing, order management, and risk control
 in perpetual futures markets.
 
